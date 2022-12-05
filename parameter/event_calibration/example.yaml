@@ -5,7 +5,7 @@
 # Time where to begin (second)
 StartTime: 5
 
-EndTime: 10
+EndTime: 50
 
 # The smallest time step (second), the time span of virtual frame is its multiple.
 # It needs to be tuned w.r.t virtual frame image ('eventImage' in CirclesEventFrame),
@@ -28,13 +28,13 @@ Camera.height: 260
 Is_Pattern_Asymmetric: 1
 
 BoardSize_Rows: 9
-BoardSize_Cols: 4
+BoardSize_Cols: 3
 
 # The size of a square in the pattern (cm)
-Square_Size: 5.5
+Square_Size: 2.5
 
 # circles_radius (cm)
-Circles_Radius: 1.75
+Circles_Radius: 0.5
 
 #--------------------------------------------------------------------------------------------
 # OpenCV Calibration Parameters (Used in initialization)

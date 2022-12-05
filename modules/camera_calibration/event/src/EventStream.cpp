@@ -44,6 +44,7 @@ void opengv2::EventStream::txt2bin(const std::string &txtFilePath, double timeMa
             double t = ((timeStamp - timeBase) * timeMagnitude); // convert to second
             if (t < 0)
                 continue;
+            std::cout << "writing [x, y, t, p] = [" << x << ", " << y << ", " << t << ", " << polarity << "]" <<std::endl;
             os.write((char *) &t, sizeof(t));
             os.write((char *) &x, sizeof(x));
             os.write((char *) &y, sizeof(y));
