@@ -1,0 +1,6 @@
+[submodule "Sophus"]
+	path = Sophus
+	url = https://github.com/strasdat/Sophus.git
+[submodule "nanoflann"]
+	path = nanoflann
+	url = https://github.com/jlblancoc/nanoflann.git
